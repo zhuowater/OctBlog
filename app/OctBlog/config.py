@@ -202,7 +202,7 @@ class Config(object):
     TEMPLATE_PATH = os.path.join(BASE_DIR, 'templates').replace('\\', '/')
     STATIC_PATH = os.path.join(BASE_DIR, 'static').replace('\\', '/')
     EXPORT_PATH = os.path.join(BASE_DIR, 'exports').replace('\\', '/')
-
+    PREFERRED_URL_SCHEME = 'https'
     if not os.path.exists(EXPORT_PATH):
         os.makedirs(EXPORT_PATH)
 
