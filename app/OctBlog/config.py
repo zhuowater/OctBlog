@@ -96,8 +96,8 @@ if sys.version_info < (3, 0):
             'allow_comment': os.environ.get('allow_comment', 'true').lower() == 'true',
             'comment_type': os.environ.get('comment_type', 'octblog').lower(), # currently, OctBlog only supports duoshuo comment
             'comment_opt':{
-                'octblog': 'oct-blog', # shotname of octblog
-                'duoshuo': 'oct-blog', # shotname of duoshuo
+                'octblog': 'zz-life', # shotname of octblog
+                'duoshuo': 'zz-life', # shotname of duoshuo
                 }
         },
         'donation': {
@@ -123,7 +123,7 @@ if sys.version_info < (3, 0):
             'home': os.environ.get('bg_home') or 'http://7d9q7a.com1.z0.glb.clouddn.com/octblog-bg.jpg',
             'post': os.environ.get('bg_post') or 'http://7d9q7a.com1.z0.glb.clouddn.com/octblog-bg.jpg',
             'about': os.environ.get('bg_about') or 'http://7d9q7a.com1.z0.glb.clouddn.com/octblog_about.jpg',
-            'qiniu': os.environ.get('qiniu') or 'http://assets.qiniu.com/qiniu-transparent.png',
+            'qiniu': os.environ.get('qiniu') or '#',
         },
 
     }
@@ -185,7 +185,7 @@ else:
             'home': os.environ.get('bg_home') or 'http://7d9q7a.com1.z0.glb.clouddn.com/octblog-bg.jpg',
             'post': os.environ.get('bg_post') or 'http://7d9q7a.com1.z0.glb.clouddn.com/octblog-bg.jpg',
             'about': os.environ.get('bg_about') or 'http://7d9q7a.com1.z0.glb.clouddn.com/octblog_about.jpg',
-            'qiniu': os.environ.get('qiniu') or 'http://assets.qiniu.com/qiniu-transparent.png',
+            #'qiniu': os.environ.get('qiniu') or 'http://assets.qiniu.com/qiniu-transparent.png',
         },
 
     }
